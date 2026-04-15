@@ -1,0 +1,19 @@
+tianqing:
+  url: https://abc.com/login
+  username: username
+  authType: "div[title=\"AD\"]"
+  password: password
+  usernameSelector: "input[placeholder=\"Username/Mobile No./Email\"]"
+  authTypeSelector: "input[placeholder=\"Source\"]"
+  passwordSelector: "input[type=\"password\"]"
+  nextSelector: "div[class=\"zeus-login-card_buttons\"]"
+  licensingSelector: "button[aria-label=\"Close\"]"
+  endpointUpdateSelector: "i[class=\"qax-icon-Remove\"]"
+  dashboardUrl: https://abc.com/123/456/dashboard
+  alertspageUrl: https://abc.com/123/456/edr/alarm
+  timeSelector: "input[placeholder=\"Select\"]"
+  last24hSelector: "div[title=\"Last 24 hours\"]"
+  alertsTableSelector: "div[class=\"biz-skylar-pagination-table\"]"
+  alertDetailsUrl: https://abc.com/123/456/edr/alarm/
+  alertDetailsUrlEnd: /details
+  assetsUrl: https://abc.com/123/456/assets/client
