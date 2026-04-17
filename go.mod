@@ -3,7 +3,7 @@ module github.com/laenix/playwright-tianqing
 go 1.25.4
 
 require (
-	github.com/laenix/playwright-base v0.0.1
+	github.com/laenix/playwright-base v0.0.2
 	github.com/playwright-community/playwright-go v0.5700.1
 	github.com/spf13/viper v1.21.0
 )

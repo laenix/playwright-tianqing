@@ -79,3 +79,7 @@ func (pt *PlaywrightTianqing) Login() {
 	})
 	fmt.Println("Login script executed successfully.")
 }
+
+func (pt *PlaywrightTianqing) Close() {
+	pt.browser.CloseBrowser()
+}
